@@ -16,6 +16,10 @@ body {
   text-align: center;
 }
 
+h2 {
+  padding-bottom: 15px;
+}
+
 /* HEADER */
 header {
   width: 100%;
@@ -66,10 +70,6 @@ nav li a:active {
   color: seashell;
 }
 
-h2 {
-  padding-bottom: 20px;
-}
-
 /* SECTION MISSION */
 section.mission {
   max-width: 1200px;
@@ -90,17 +90,13 @@ section.mission {
   width: 100%;
 }
 
-
 /* SECTION MONTHLY */
 section.monthly {
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 75px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#monthly {
 }
 
 .monthly-title {
@@ -123,3 +119,32 @@ section.monthly {
  .monthly-grp {
   margin: 15px;
  }
+
+ /* SECTION LOCATIONS */
+ section.locations {
+   max-width: 1200px;
+   height: 500px;
+   margin: 0 auto;
+   position: relative;
+   background: url('../img/img-locations-background.jpg') center center no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+.locations-list {
+  display: flex;
+}
+
+ .locations-grp {
+   background-color: black;
+   width: 300px;
+   margin: 0 20px;
+ }
+
+.locations-grp h3,
+.locations-grp p {
+  padding: 20px;
+  opacity: 1;
+}
