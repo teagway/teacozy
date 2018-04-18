@@ -49,10 +49,10 @@ nav {
 }
 
 nav ul {
+  display: flex;
 }
 
 nav li {
-  display: inline-block;
   list-style: none;
   padding-left: 20px;
 }
@@ -93,7 +93,8 @@ section.mission {
 /* SECTION MONTHLY */
 section.monthly {
   max-width: 1000px;
-  margin: 75px auto;
+  margin: 0 auto 75px;
+  padding-top: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,4 +148,34 @@ section.monthly {
 .locations-grp p {
   padding: 20px;
   opacity: 1;
+}
+
+/* FOOTER */
+footer {
+}
+
+.company {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.company a:link,
+.company a:visited {
+  color: seashell;
+  text-decoration: none;
+}
+
+.company a:hover {
+  color: lightblue;
+}
+
+.company a:active {
+  color: seashell;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
 }
