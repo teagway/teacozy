@@ -66,6 +66,10 @@ nav li a:active {
   color: seashell;
 }
 
+h2 {
+  padding-bottom: 20px;
+}
+
 /* SECTION MISSION */
 section.mission {
   max-width: 1200px;
@@ -86,6 +90,36 @@ section.mission {
   width: 100%;
 }
 
-#mission h2 {
-  padding-bottom: 20px;
+
+/* SECTION MONTHLY */
+section.monthly {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#monthly {
+}
+
+.monthly-title {
+  margin: 0 0 15px 0;
+}
+
+.monthly-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.monthly-img img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+ .monthly-grp {
+  margin: 15px;
+ }
